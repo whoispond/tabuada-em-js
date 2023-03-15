@@ -1,4 +1,29 @@
+h1,h4{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
 .center {
     display: grid;
     justify-content: center;
+}
+
+.background{
+    background-image: url("https://wallpapers.com/images/featured/mathematics-snya5mv2dogewetc.webp");
+}
+
+.card{
+    background-color: white;
+    width: 454px;
+    height: 185px;
+    display: grid;
+    justify-content: center;
+    align-content: space-evenly;
+}
+
+button{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
 }
