@@ -1,10 +1,11 @@
-function calcular() {
+function calcular(){
     var num = parseInt(document.getElementById("num").value);
-    var resposta = document.getElementsById('resposta');
+    var resposta = document.getElementById('respost');
     var calcular = '';
 
     for (var count = 1; count <= 10; count++)
-    calcular += num + "x" + count + "=" + num * count + "<br/>";
+    calcular += num + "x" + count + "=" + num * count + "<br>";
+    
 
 
     resposta.innerHTML = calcular;
