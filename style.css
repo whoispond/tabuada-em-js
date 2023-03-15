@@ -13,7 +13,8 @@ body{
 }
 
 .card{
-    background-color: white;
+    background-color: #FFC0CB;
+    border-radius: 5px;
     width: 454px;
     height: 185px;
     display: grid;
